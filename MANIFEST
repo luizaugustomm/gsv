@@ -2,4 +2,3 @@
 setup.cfg
 setup.py
 gsv/__init__.py
-gsv/gsv.py
