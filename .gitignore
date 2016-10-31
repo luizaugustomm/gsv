@@ -1,0 +1,4 @@
+*.pyc
+gsv-out
+venv
+config.py
