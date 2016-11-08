@@ -2,7 +2,14 @@
 
 Third-party package that accesses Google Street View API and downloads images according to given parameters.
 
-## Configuration
+## How to install
+
+You can install `gsv` using pip:
+```
+pip install gsv
+```
+
+## How to configure
 
 - In order to access Google Street View Image API, you need to get a [key](https://developers.google.com/maps/documentation/streetview/get-api-key) before.
 - Create a config.py file and write the following:
@@ -11,7 +18,7 @@ SECRET_KEY = #Your secret key from Google Street View Image API
 ```
 **Important**: Remember to hide your `config.py` file if you intend to publish your code publically. In case of publishing that on Github, add `config.py` in the `.gitignore` file.
 
-## How to use `gsv`
+## How to use
 
 ```
 import gsv
